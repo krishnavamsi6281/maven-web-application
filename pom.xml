@@ -21,7 +21,7 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://13.212.24.42:9091/vamsitech/</sonar.host.url>
+		<sonar.host.url>http://13.212.182.17:9091/vamsitech/</sonar.host.url>
 		<sonar.login>squ_ae10e31eada6c4b5c1aca8ef75ebcb26669626e1</sonar.login>
 		
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -98,13 +98,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Mithun Technologie Releases Nexus Repository</name>
-	      <url>http://47.128.228.80:9980/vamsitech/repository/wallmart-releases/</url>
+	      <url>http://13.229.100.142:9980/vamsitech/repository/wallmart-releases/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://47.128.228.80:9980/vamsitech/repository/wallmart-snapshots/</url>
+	      <url>http://13.229.100.142:9980/vamsitech/repository/wallmart-snapshots/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
