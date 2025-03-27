@@ -21,8 +21,8 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://18.143.179.190:9000/</sonar.host.url>
-		<sonar.login>sqa_9f7459f38021214e838be69fea3f8343ba9747ab</sonar.login>
+		<sonar.host.url>http://13.212.19.30:9091/vamsitech/</sonar.host.url>
+		<sonar.login>sqa_b05bfff5d1bd5afda45c9523c65045a95405f343</sonar.login>
 		
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -97,14 +97,14 @@
 	
 	    <repository>
 	      <id>nexus</id>
-	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://13.212.71.229:9980/mithuntechnologies/repository/canarabank-snapshot/</url>
+	      <name>Mithun Technologie Releases Nexus Repository</name>
+	      <url>http://47.128.64.74:9980/vamsitech/repository/wallmart-releases/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://13.212.71.229:9980/mithuntechnologies/repository/canarabank-release/</url>
+	      <url>http://47.128.64.74:9980/vamsitech/repository/wallmart-snapshots/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
