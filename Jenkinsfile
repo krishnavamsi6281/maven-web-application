@@ -1,4 +1,5 @@
-node {
+node('nodes')
+{
     def mavenHome = "/var/lib/jenkins/tools/hudson.tasks.Maven_MavenInstallation/maven_3.6.3"
 
     stage('Checkout Code') {
